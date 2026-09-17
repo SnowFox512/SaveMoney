@@ -1,0 +1,14 @@
+{
+  "name": "saving-planner",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --configLoader runner --host 0.0.0.0",
+    "build": "tsc -b && vite build --configLoader runner",
+    "preview": "vite preview --configLoader runner --host 0.0.0.0",
+    "test": "node --test tests/logic.test.mjs"
+  },
+  "dependencies": {"lucide-react": "^0.468.0", "react": "^19.0.0", "react-dom": "^19.0.0"},
+  "devDependencies": {"@types/react": "^19.0.0", "@types/react-dom": "^19.0.0", "@vitejs/plugin-react": "^4.3.4", "typescript": "^5.7.3", "vite": "^6.0.5"}
+}
